@@ -27,7 +27,6 @@ public class ChequingAccount extends BankAccount{
      */
     public ChequingAccount(double balance) {
         super(balance);
-        transactionCnt = 0;
     }
 
     /**
