@@ -35,6 +35,7 @@ public class ChequingAccount extends BankAccount{
      */
     private void chargeFees(){
         this.balance -= TRANSACTION_FEE;
+        transactionCnt = 0;
     }
 
     /**
