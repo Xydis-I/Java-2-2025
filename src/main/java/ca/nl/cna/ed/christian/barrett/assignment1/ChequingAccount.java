@@ -48,7 +48,7 @@ public class ChequingAccount extends BankAccount{
     public void depositAmt(double amount){
         super.depositAmt(amount);
         transactionCnt++;
-        if(transactionCnt >= FREE_TRANSACTIONS){
+        if(transactionCnt > FREE_TRANSACTIONS){
             chargeFees();
         }
     }
@@ -65,7 +65,7 @@ public class ChequingAccount extends BankAccount{
     public void withdrawAmt(double amount) {
         super.withdrawAmt(amount);
         transactionCnt++;
-        if(transactionCnt >= FREE_TRANSACTIONS){
+        if(transactionCnt > FREE_TRANSACTIONS){
             chargeFees();
         }
     }

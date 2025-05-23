@@ -67,8 +67,8 @@ public class BankAccount {
      */
     public void transferAmt(BankAccount account, double amount) {
         if (amount > 0 && amount <= this.balance) {
-            this.withdrawAmt(amount);
-            account.depositAmt(amount);
+            this.balance -= amount;
+            account.balance += amount;
         }
     }
 }
