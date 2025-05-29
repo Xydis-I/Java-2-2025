@@ -10,13 +10,13 @@ public class TransactionsTest {
         try {
             var christianSavingsFail = new SavingsAccount(-500);
         } catch (InvalidAccountActionException e) {
-            e.printStackTrace();
+            System.err.println(e.getMessage());
         }
 
         try {
             var christianChequingFail = new ChequingAccount(-500);
         } catch (InvalidAccountActionException e) {
-            e.printStackTrace();
+            System.err.println(e.getMessage());
         }
 
         var christianSavings = new SavingsAccount();
@@ -33,19 +33,19 @@ public class TransactionsTest {
             christianSavings.changeInterest(5);
             christianSavings.addInterest();
         } catch (InvalidAccountActionException e) {
-            e.printStackTrace();
+            System.err.println(e.getMessage());
         }
 
         try {
             christianSavings.depositAmt(-5000);
         } catch (InvalidAccountActionException e) {
-            e.printStackTrace();
+            System.err.println(e.getMessage());
         }
 
         try {
             christianChequing.withdrawAmt(-500);
         } catch (InvalidAccountActionException e) {
-            e.printStackTrace();
+            System.err.println(e.getMessage());
         }
 
         System.out.println(String.format("Final Savings Balance: $%.2f", christianSavings.getBalance()));

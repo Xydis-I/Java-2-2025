@@ -24,7 +24,7 @@ public class BankAccount {
      */
     public BankAccount(double balance) throws InvalidAccountActionException {
         if (balance < 0) {
-            throw new InvalidAccountActionException();
+            throw new InvalidAccountActionException("Cannot create an account with negative balance.");
         }
 
         this.balance = balance;
@@ -39,7 +39,7 @@ public class BankAccount {
      */
     public void depositAmt(double amount) throws InvalidAccountActionException {
         if (amount <= 0) {
-            throw new InvalidAccountActionException();
+            throw new InvalidAccountActionException("Cannot deposit a negative amount.");
         }
 
         this.balance += amount;
@@ -53,8 +53,12 @@ public class BankAccount {
      * @throws InvalidAccountActionException Exception thrown by entering amount less than or equal to 0 or greater than current balance.
      */
     public void withdrawAmt(double amount) throws InvalidAccountActionException {
-        if (amount > balance || amount <= 0) {
-            throw new InvalidAccountActionException();
+        if (amount > balance) {
+            throw new InvalidAccountActionException("Cannot withdraw amount greater than balance.");
+        }
+
+        if (amount <= 0) {
+            throw new InvalidAccountActionException("Cannot withdraw negative amount.");
         }
 
         this.balance -= amount;
@@ -78,8 +82,12 @@ public class BankAccount {
      * @throws InvalidAccountActionException Exception thrown by entering amount less than or equal to 0 or greater than current balance.
      */
     public void transferAmt(BankAccount account, double amount) throws InvalidAccountActionException {
-        if (amount <= 0 || amount > this.balance) {
-            throw new InvalidAccountActionException();
+        if (amount <= 0) {
+            throw new InvalidAccountActionException("Cannot transfer amount greater than or equal to zero.");
+        }
+
+        if (amount > this.balance) {
+            throw new InvalidAccountActionException("Cannot transfer amount greater than balance.");
         }
 
         this.balance -= amount;
