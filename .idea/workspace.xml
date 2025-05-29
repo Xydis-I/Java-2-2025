@@ -4,79 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2789dd4-bf37-4ec1-8d2c-1444cc1869f9" name="Changes" comment="Assignment 2 Updated.">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/allclasses-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/allpackages-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/element-list" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/help-doc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/index-files/index-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/index-files/index-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/index-files/index-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/index-files/index-4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/index-files/index-5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/index-files/index-6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/index-files/index-7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/index-files/index-8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/index-files/index-9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/legal/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/legal/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/legal/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/legal/dejavufonts.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/legal/jquery.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/legal/jqueryUI.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/main/java/ca/nl/cna/ed/christian/barrett/assignment1/BankAccount.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/main/java/ca/nl/cna/ed/christian/barrett/assignment1/ChequingAccount.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/main/java/ca/nl/cna/ed/christian/barrett/assignment1/SavingsAccount.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/main/java/ca/nl/cna/ed/christian/barrett/assignment1/TransactionsTest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/main/java/ca/nl/cna/ed/christian/barrett/assignment1/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/main/java/ca/nl/cna/ed/christian/barrett/assignment1/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/member-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/module-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/overview-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/package-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/resource-files/copy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/resource-files/fonts/DejaVuLGCSans-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/resource-files/fonts/DejaVuLGCSans-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/resource-files/fonts/DejaVuLGCSans-BoldOblique.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/resource-files/fonts/DejaVuLGCSans-BoldOblique.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/resource-files/fonts/DejaVuLGCSans-Oblique.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/resource-files/fonts/DejaVuLGCSans-Oblique.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/resource-files/fonts/DejaVuLGCSans.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/resource-files/fonts/DejaVuLGCSans.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/resource-files/fonts/DejaVuLGCSansMono-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/resource-files/fonts/DejaVuLGCSansMono-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/resource-files/fonts/DejaVuLGCSansMono-BoldOblique.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/resource-files/fonts/DejaVuLGCSansMono-BoldOblique.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/resource-files/fonts/DejaVuLGCSansMono-Oblique.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/resource-files/fonts/DejaVuLGCSansMono-Oblique.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/resource-files/fonts/DejaVuLGCSansMono.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/resource-files/fonts/DejaVuLGCSansMono.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/resource-files/fonts/DejaVuLGCSerif-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/resource-files/fonts/DejaVuLGCSerif-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/resource-files/fonts/DejaVuLGCSerif-BoldItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/resource-files/fonts/DejaVuLGCSerif-BoldItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/resource-files/fonts/DejaVuLGCSerif-Italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/resource-files/fonts/DejaVuLGCSerif-Italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/resource-files/fonts/DejaVuLGCSerif.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/resource-files/fonts/DejaVuLGCSerif.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/resource-files/fonts/dejavu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/resource-files/glass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/resource-files/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/resource-files/link.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/resource-files/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/resource-files/x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/script-files/jquery-3.7.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/script-files/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/script-files/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/script-files/search-page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/script-files/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/tag-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/javadoc/type-search-index.js" afterDir="false" />
+    <list default="true" id="b2789dd4-bf37-4ec1-8d2c-1444cc1869f9" name="Changes" comment="Assignment 2 Errors updated.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/assignment2/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/assignment2/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/assignment2/TransactionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/ed/christian/barrett/assignment2/TransactionsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +84,7 @@
       <updated>1747918520877</updated>
       <workItem from="1747918522519" duration="5094000" />
       <workItem from="1747997545733" duration="6464000" />
-      <workItem from="1748515770061" duration="3867000" />
+      <workItem from="1748515770061" duration="4409000" />
     </task>
     <task id="LOCAL-00001" summary="Assignment 1 Complete.">
       <option name="closed" value="true" />
@@ -212,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748005070347</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Assignment 2 Errors updated.">
+      <option name="closed" value="true" />
+      <created>1748520844210</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1748520844210</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +162,7 @@
     <MESSAGE value="Assignment 1 Zip Created." />
     <MESSAGE value="Assignment 2 Completed." />
     <MESSAGE value="Assignment 2 Updated." />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment 2 Updated." />
+    <MESSAGE value="Assignment 2 Errors updated." />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment 2 Errors updated." />
   </component>
 </project>

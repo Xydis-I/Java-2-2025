@@ -39,7 +39,7 @@ public class BankAccount {
      */
     public void depositAmt(double amount) throws InvalidAccountActionException {
         if (amount <= 0) {
-            throw new InvalidAccountActionException("Cannot deposit a negative amount.");
+            throw new InvalidAccountActionException("Cannot deposit an amount less than or equal to 0.");
         }
 
         this.balance += amount;
@@ -58,7 +58,7 @@ public class BankAccount {
         }
 
         if (amount <= 0) {
-            throw new InvalidAccountActionException("Cannot withdraw negative amount.");
+            throw new InvalidAccountActionException("Cannot withdraw an amount less than or equal to 0.");
         }
 
         this.balance -= amount;
