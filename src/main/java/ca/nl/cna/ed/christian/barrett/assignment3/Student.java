@@ -29,6 +29,23 @@ public class Student {
     private int creditsAchieved;
     private float balanceOwing;
 
+    public Student() {}
+
+    public Student(String firstName, String lastName, int studentNumber, String email, String phoneNumber, int creditsAchieved, float balanceOwing) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.studentNumber = studentNumber;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+        this.creditsAchieved = creditsAchieved;
+        this.balanceOwing = balanceOwing;
+    }
+
+    @Override
+    public String toString() {
+        return firstName + " " + lastName + " " + studentNumber + " " + email + " " + phoneNumber + " " + creditsAchieved + " $" + balanceOwing;
+    }
+
     public String getFirstName() {
         return firstName;
     }
