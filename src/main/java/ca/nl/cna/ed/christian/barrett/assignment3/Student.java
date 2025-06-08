@@ -43,7 +43,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return firstName + " " + lastName + " " + studentNumber + " " + email + " " + phoneNumber + " " + creditsAchieved + " $" + balanceOwing;
+        return firstName + " " + lastName + " " + studentNumber + " " + email + " " + phoneNumber + " " + creditsAchieved + " $" + String.format("%.2f", balanceOwing);
     }
 
     public String getFirstName() {

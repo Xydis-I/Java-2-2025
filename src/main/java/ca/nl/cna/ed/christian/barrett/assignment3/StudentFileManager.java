@@ -70,7 +70,7 @@ public class StudentFileManager {
                 BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
         ){
             for (Student student : students) {
-                bufferedWriter.write(student.toString());
+                bufferedWriter.write(student.toString() + "\n");
             }
         }
         logStream.println("Students Saved.");
