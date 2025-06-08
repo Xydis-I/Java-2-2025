@@ -44,7 +44,7 @@ public class StudentFileManager {
                             details[3],
                             details[4],
                             Integer.parseInt(details[5]),
-                            Integer.parseInt(details[6].substring(1)));
+                            Float.parseFloat(details[6].substring(1)));
                     students.add(student);
 
                     //If any data is maybe print it during test but print the summary at the end to the logStream
