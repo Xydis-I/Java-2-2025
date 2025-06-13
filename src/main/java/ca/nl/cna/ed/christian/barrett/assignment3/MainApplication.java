@@ -27,14 +27,15 @@ public class MainApplication {
         try {
             students = StudentFileManager.loadStudents(inputFile, System.out);
         } catch (IOException e) {
-            System.out.println(e.getMessage());
             System.out.println("Error loading students from file.");
         }
 
         System.out.println("""
+                
                 add - Add a new student to the list.
                 del - Remove a student form the list.
-                mod - Modify a student""");
+                mod - Modify a student
+                """);
         System.out.print("Select an option: ");
         String menuOption = System.console().readLine();
 
@@ -82,7 +83,6 @@ public class MainApplication {
         try {
             StudentFileManager.saveStudents(students, outputFile, System.out);
         } catch (IOException e) {
-            System.out.println(e);
             System.out.println("Error saving students into file.");
         }
     }

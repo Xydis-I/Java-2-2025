@@ -50,7 +50,7 @@ public class Student {
      */
     @Override
     public String toString() {
-        return firstName + " " + lastName + " " + studentNumber + " " + email + " " + phoneNumber + " " + creditsAchieved + " $" + String.format("%.2f", balanceOwing);
+        return firstName + " " + lastName + " " + studentNumber + " " + email + " " + phoneNumber + " " + creditsAchieved + String.format(" $%.2f", balanceOwing);
     }
 
     /**
