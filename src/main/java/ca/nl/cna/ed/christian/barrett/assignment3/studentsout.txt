@@ -1,3 +1,2 @@
 Josh Taylor 182983947 josh.taylor@cna.nl.ca 709-555-5555 12 $562.00
-John Doe 18298395 john.doecna.nl.ca 709-555-5555 7 $0.00
 John Doe 182983957 john.doe@cna.nl.ca 709-555-5555 7 $0.00
