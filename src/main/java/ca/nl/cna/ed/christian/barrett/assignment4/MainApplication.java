@@ -32,54 +32,39 @@ public class MainApplication {
 
         System.out.println("""
                 
-                add - Add a new student to the list.
-                del - Remove a student form the list.
-                mod - Modify a student
+                cred - Sort by Course Credits.
+                name - Sort by Last Name.
+                owed - Filter for Balance Owing.
                 """);
+
         System.out.print("Select an option: ");
         String menuOption = System.console().readLine();
 
         switch (menuOption) {
-            case "add" -> {
-                System.out.print("Add a New Student: ");
-                String newStudent = System.console().readLine();
-                String[] details = newStudent.split(" ");
-                Student student = new Student(details[0],
-                        details[1],
-                        Integer.parseInt(details[2]),
-                        details[3],
-                        details[4],
-                        Integer.parseInt(details[5]),
-                        Float.parseFloat(details[6].substring(1)));
-                students.add(student);
+            case "cred" -> {
+                System.out.println("Sorted by Course Credits.");
+                StudentManager.SortByCredits(students);
+                for (Student student : students) {
+                    System.out.println(student);
+                }
+
             }
-            case "del" -> {
-                System.out.print("Remove a Student (1-" + students.size() + "): ");
-                int studentIndex = Integer.parseInt(System.console().readLine()) - 1;
-                students.remove(studentIndex);
+            case "name" -> {
+                System.out.println("Sorted by Last Name.");
+                StudentManager.SortByLastName(students);
+                for (Student student : students) {
+                    System.out.println(student);
+                }
             }
-            case "mod" -> {
-                System.out.print("Modify a Student (1-" + students.size() + "): ");
-                int studentIndex = Integer.parseInt(System.console().readLine()) - 1;
-                Student student = students.get(studentIndex);
-                System.out.println("Current: " + student.toString());
-                System.out.print("Updated: ");
-                String[] details = System.console().readLine().split(" ");
-                Student newStudent = new Student(details[0],
-                        details[1],
-                        Integer.parseInt(details[2]),
-                        details[3],
-                        details[4],
-                        Integer.parseInt(details[5]),
-                        Float.parseFloat(details[6].substring(1)));
-                students.set(studentIndex, newStudent);
+            case "owed" -> {
+                System.out.println("Filtered for Balance Owing.");
+                students = StudentManager.OutstandingBalance(students);
+                for (Student student : students) {
+                    System.out.println(student);
+                }
             }
             default -> System.out.println("Invalid option.");
         }
-
-//        StudentManager.SortByCredits(students);
-//        StudentManager.SortByLastName(students);
-//        List<Student> owing = StudentManager.OutstandingBalance(students);
 
         System.out.print("Enter File Path to Save: ");
         String outputName = System.console().readLine();
