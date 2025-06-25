@@ -1,5 +1,6 @@
 package main.java.ca.nl.cna.ed.christian.barrett.assignment4;
 
+import java.util.Comparator;
 import java.util.List;
 
 /**
@@ -15,7 +16,7 @@ public class StudentManager {
      * @param students List&lt;Student&gt; to be sorted.
      */
     public static void SortByCredits(List<Student> students) {
-        students.sort((x,y) -> x.getCreditsAchieved() - y.getCreditsAchieved());
+        students.sort(Comparator.comparingInt(Student::getCreditsAchieved));
     }
 
     /**
